@@ -1,0 +1,23 @@
+﻿hostname RCORE
+!
+interface Ethernet0/0
+ ip address dhcp
+ ip nat outside
+!
+interface Ethernet0/1.23
+ encapsulation dot1Q 23
+ ip address 10.21.23.1 255.255.255.0
+ ip nat inside
+!
+interface Ethernet0/2.71
+ encapsulation dot1Q 71
+ ip address 10.21.24.1 255.255.255.0
+ ip nat inside
+!
+ip nat source list internet interface Ethernet0/0 overload
+ip route 0.0.0.0 0.0.0.0 192.168.100.1
+!
+ip access-list standard internet
+ permit any
+!
+end
