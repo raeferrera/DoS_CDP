@@ -1,7 +1,7 @@
 ﻿# CDP DoS Attack 
 
 **Estudiante:** Raelina  
-**Matrícula:** [20212371]  
+**Matrícula:** 20212371
 **Institución:** Instituto Tecnológico de las Américas (ITLA)    
 **Fecha:** Febrero 2026
 
