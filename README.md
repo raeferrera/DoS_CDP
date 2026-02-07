@@ -149,37 +149,6 @@ sudo apt install -y python3 python3-pip tcpdump
 pip3 install -r requirements.txt
 \\\
 
----
-
-##  Capturas de Pantalla
-
-### 1. Topología de Red en PNETLab
-![Topología Completa](evidencias/screenshots/01_topologia.png)
-*Topología completa mostrando VICTIM, SW2, ROUTER, SW1 y ATTACKER*
-
-### 2. Tabla de Direccionamiento
-![Direccionamiento IP](evidencias/screenshots/02_direccionamiento.png)
-*Configuración de IPs y VLANs en todos los dispositivos*
-
-### 3. Ejecución del Script de Ataque
-![Script Running](evidencias/screenshots/03_script_execution.png)
-*Ataque CDP DoS en ejecución con 10000 paquetes*
-
-### 4. Impacto en CPU del Switch
-![CPU Impact](evidencias/screenshots/04_switch_cpu.png)
-*Uso de CPU del switch alcanzando 85-95% durante el ataque*
-
-### 5. Tabla CDP Desbordada
-![CDP Table Flood](evidencias/screenshots/05_cdp_table.png)
-*Tabla CDP con miles de dispositivos falsos (FAKE-DEVICE-XXXXX)*
-
-### 6. Captura en Wireshark
-![Wireshark Analysis](evidencias/screenshots/06_wireshark.png)
-*Análisis de paquetes CDP maliciosos en Wireshark*
-
-### 7. Aplicación de Mitigaciones
-![Mitigation Applied](evidencias/screenshots/07_mitigation.png)
-*Configuración "no cdp run" aplicada en el switch*
 
 ---
 
@@ -285,19 +254,9 @@ show storm-control
 
 ##  Video Demostración
 
- **Enlace:** [Subir a YouTube/Google Drive]
+ **Enlace:** []
 
-**Duración:** 8 minutos máximo
 
-**Contenido Obligatorio:**
--  Topología con nombre completo y matrícula visible
--  Hora y fecha en pantalla
--  Rostro del estudiante visible
--  Voz del estudiante narrando
--  Demostración completa del ataque CDP DoS
--  Análisis del impacto en el switch
--  Implementación de al menos 2 mitigaciones
--  Verificación de efectividad de mitigaciones
 
 ---
 
@@ -305,19 +264,3 @@ show storm-control
 
 **USO EXCLUSIVO PARA LABORATORIO EDUCATIVO DE ITLA**
 
- NO usar en redes de producción  
- NO usar sin autorización  
- Solo para fines académicos
-
----
-
-##  Autor
-
-**Raelina**  
-Estudiante de Ciencias Forenses y Ciberseguridad  
-Instituto Tecnológico de las Américas (ITLA)  
-Santo Domingo, República Dominicana
-
----
-
-*Última actualización: Febrero 2026 | Versión 1.0*
