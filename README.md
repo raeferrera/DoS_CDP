@@ -1,9 +1,8 @@
-﻿# CDP DoS Attack - ITLA Cybersecurity Lab
+﻿# CDP DoS Attack 
 
 **Estudiante:** Raelina  
-**Matrícula:** [TU_MATRÍCULA_AQUÍ]  
-**Institución:** Instituto Tecnológico de las Américas (ITLA)  
-**Curso:** Ciencias Forenses y Ciberseguridad - Redes  
+**Matrícula:** [20212371]  
+**Institución:** Instituto Tecnológico de las Américas (ITLA)    
 **Fecha:** Febrero 2026
 
 ---
@@ -22,43 +21,7 @@ Implementar un ataque de **Denegación de Servicio (DoS)** explotando el protoco
 
 ##  Topología de Red
 
-![Topología](evidencias/screenshots/topologia.png)
-
-\\\
-                    
-                         VPC     
-                       (VICTIM)  
-                     10.21.24.2  
-                    
-                            e0
-                           
-                      
-                         SW2    
-                        VLAN 71 
-                      
-                            e0/0
-                           
-                            e0/2
-                    
-                       ROUTER    
-                        CORE     
-                    
-                  e0/0        e0/1
-                             
-                    Net      
-              192.168               
-               .100.1          
-                                  SW1    
-                                 VLAN 23 
-                               
-                                     e0/1
-                                    
-                               
-                                   VPC    
-                                (ATTACKER)
-                               10.21.23.2 
-                               
-\\\
+<img width="1256" height="706" alt="image" src="https://github.com/user-attachments/assets/b7e85fd8-a369-4d4e-9173-b5296a18c4a7" />
 
 ---
 
