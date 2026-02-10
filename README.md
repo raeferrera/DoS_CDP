@@ -21,7 +21,8 @@ Implementar un ataque de **Denegación de Servicio (DoS)** explotando el protoco
 
 ##  Topología de Red
 
-<img width="1256" height="706" alt="image" src="https://github.com/user-attachments/assets/b7e85fd8-a369-4d4e-9173-b5296a18c4a7" />
+<img width="705" height="467" alt="image" src="https://github.com/user-attachments/assets/943e8391-ba39-4ced-ba93-599565e4233b" />
+
 
 ---
 
